@@ -1,0 +1,22 @@
+{
+  "name": "keeperhub-starter",
+  "version": "1.0.0",
+  "description": "Starter template for building AI agents that execute onchain through KeeperHub",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "example:read": "ts-node src/examples/read-contract.ts",
+    "example:write": "ts-node src/examples/write-contract.ts",
+    "example:erc20": "ts-node src/examples/erc20-transfer.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
